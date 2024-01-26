@@ -70,7 +70,7 @@ TABLE OF CONTENTS:-
 ================================================================*/
 /* --------------- variable --------------- */
 :root {
-  --color-main:#0066ff;
+  /* --color-main:#0066ff;
   --color-primary:#0066ff;
   --color-secondary:#02b5ff;
   --color-blue2: #4a00e1;
@@ -90,7 +90,28 @@ TABLE OF CONTENTS:-
   --color-yellowGreen:#cef54b;
   --color-gray:#eef4f8;
   --color-gray2:#f0eff5;
-  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%);
+  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%); */
+  --color-main:#1587FF;
+  --color-primary:#1587FF;
+  --color-secondary:#7a94ff; /* Analogous to primary */
+  --color-tertiary:#ff8c15; /* Complementary to primary */
+  --color-quaternary:#15ff6d; /* Split-complementary to primary */
+  --color-quinary:#ff15b1; /* Double-split-complementary to primary */
+  --color-senary:#727cff; /* Triadic to primary */
+  --color-septenary:#1587FF; /* Tetradic to primary */
+  --color-lightBlue:#15f1ff; /* Existing color */
+  --color-darkBlue:#010049; /* Existing color */
+  --color-darkBlue2:#1f227d; /* Existing color */
+  --color-orange1:#ff7a41; /* Existing color */
+  --color-orange2:#f6c463; /* Existing color */
+  --color-orange3:#f9a41f; /* Existing color */
+  --color-red1:#cc2131; /* Existing color */
+  --color-red2:#ef1552; /* Existing color */
+  --color-green:#00c057; /* Existing color */
+  --color-yellowGreen:#cef54b; /* Existing color */
+  --color-gray:#eef4f8; /* Existing color */
+  --color-gray2:#f0eff5; /* Existing color */
+  --color-main-grad: linear-gradient(to right, #0c3df4 0%, #02b5ff 100%); /* Existing gradient */
 }
 
 .color-main {
